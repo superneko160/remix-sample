@@ -1,3 +1,4 @@
+// http://localhost:3000/hello
 export default function Index() {
     return (
         <div className={'grid place-items-center mt-10'}>
