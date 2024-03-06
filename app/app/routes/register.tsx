@@ -16,7 +16,7 @@ export async function action({ request }: actionFunctionArgs) {
     }
 }
 
-// http://localhost:3000/contact
+// http://localhost:3000/register
 export default function Index() {
 
     const actionData = useActionData();
