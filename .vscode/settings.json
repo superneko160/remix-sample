@@ -1,14 +1,12 @@
 {
     "editor.formatOnSave": true,
     "files.insertFinalNewline": true,
-    "editor.detectIndentation": false,
+    "editor.detectIndentation": true,
     "[typescript]": {
         "editor.tabSize": 2,
         "editor.insertSpaces": true
     },
-    "typescript.tsdk": "./../app/node_modules/typescript/lib",
     "editor.codeActionsOnSave": {
-        "source.fixAll": "explicit",
-        "source.fixAll.stylelint": "always",
+        "source.fixAll": "explicit"
     }
 }

@@ -1,15 +1,12 @@
-import { useLoaderData } from "@remix-run/react";
+import { useLoaderData } from '@remix-run/react'
 
 export async function loader({ params }: LoaderFunctionArgs) {
-    return params.id
+  return params.id
 }
 
 // http://localhost:3000/users/xxx
 export default function Index() {
+  const userId = useLoaderData()
 
-    const userId = useLoaderData();
-
-    return (
-        <div>Params: {userId}</div>
-    )
+  return <div>Params: {userId}</div>
 }
